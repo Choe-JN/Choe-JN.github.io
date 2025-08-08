@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../aseets/img21.jpg'); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+ 
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+  
+}
+.title{
+    position:relative;
+    font-size: 7em;
+}
+.modules{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.modules a button {
+    min-width:10em;
+    min-height: 5em;
+    margin: 1em;
+    font-size: 2em; /* Ajusta esto a lo que necesites */
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 1em;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
