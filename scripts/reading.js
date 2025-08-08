@@ -66,7 +66,7 @@ function showTranslation(span) {
   tooltip.style.top = (window.scrollY + positionWord.top - height - 10) + "px";
   tooltip.style.left = (window.scrollX + positionWord.left + (positionWord.width / 2) - (width / 2)) + "px";
 
-  buttonRemenber.style.top = (window.scrollY + positionWord.top - height - 80) + "px";
+  buttonRemenber.style.top = (window.scrollY + positionWord.top - height - 60) + "px";
   buttonRemenber.style.left = (window.scrollX + positionWord.left + (positionWord.width / 2) - (width / 2)) + "px";
 
   // Estilos del tooltip
@@ -145,7 +145,7 @@ function guardar() {
 let nextText = document.getElementById("nextText");
 console.log(nextText)
 nextText.addEventListener("click", () => {
-  numTexto = 2;
+  numTexto = numTexto + 1;
   archivo = `../Texts/text${numTexto}.json`;
   chargerText(); // Carga el nuevo texto
 });
